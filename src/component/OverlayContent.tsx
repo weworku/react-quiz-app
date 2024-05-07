@@ -24,7 +24,6 @@ const OverlayContent = () => {
             height: 332,
           }}>
           {/* position: 'absolute'のカードはスペースを詰めらるため、ダミーのカードを配置 */}
-
           <Card
             sx={{
               width: 300,
@@ -33,6 +32,7 @@ const OverlayContent = () => {
               'background-color': '#242424', //#242424
               'z-Index': '-1',
             }} />
+          {/* 以下がスライドさせるカード */}
           <Slide direction='right' in={cardVisible} mountOnEnter unmountOnExit timeout={{ enter: 500, exit: 500 }}>
             <Card
               sx={{

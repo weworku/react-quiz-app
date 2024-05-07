@@ -7,8 +7,8 @@ import OverlayContent from './component/OverlayContent'
 function App() {
   return (
     <>
-      <OverlayContent />
-      {/* <AnimatedCard /> */}
+      {/* <OverlayContent /> */}
+      <AnimatedCard />
     </>
   )
 }
