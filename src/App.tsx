@@ -1,15 +1,18 @@
-// import { useState } from 'react'
-import './App.css'
+// import './App.css'
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline'
 import AnimatedCard from './component/AnimatedCard'
-import OverlayContent from './component/OverlayContent'
-
+import ButtonAppBar from './component/ButtonAppBar'
+import theme from './theme';
 
 function App() {
   return (
-    <>
-      {/* <OverlayContent /> */}
-      <AnimatedCard />
-    </>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <ButtonAppBar />
+      {/* <AnimatedCard /> */}
+
+    </ThemeProvider>
   )
 }
 

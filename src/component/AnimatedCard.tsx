@@ -41,11 +41,11 @@ export default function AnimatedCard() {
         {/* <Button onClick={() => setReverseZindex(zIndex === 0 ? 1 : 0)}>Change Z-Index</Button> */}
         {/* TODO:direction, nextボタン押された時はright、backボタンが押された時はleftにしたい */}
         <Container style={{ padding: 0, margin: 0, }}
-          sx={{ position: 'relative', width: 332, height: 332, overflow: 'hidden', }}>
+          sx={{ position: 'relative', width: '50%', height: 332, overflow: 'hidden', }}>
           {/* position: 'absolute'のカードはスペースを詰めらるため、ダミーのカードを配置 */}
           <Card
             sx={{
-              width: 300, height: 300, margin: 2,
+              width: '100%', height: 300,
               'background-color': '#242424', //#242424
               'z-Index': '-1',
             }} />
@@ -56,9 +56,7 @@ export default function AnimatedCard() {
               <Card
                 key={index}
                 sx={{
-                  width: 300,
-                  height: 300,
-                  margin: 2,
+                  width: '100%', height: 300,
                   'background-color': card.color,
                   position: 'absolute',
                   top: 0,
