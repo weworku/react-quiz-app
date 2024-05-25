@@ -9,8 +9,13 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      {/* ヘッダー部 */}
       <ButtonAppBar />
-      {/* <AnimatedCard /> */}
+      {/* ボディー部 */}
+      {/* 問題の解答状況インジケーター */}
+
+      {/* カード式の問題・回答 */}
+      <AnimatedCard />
 
     </ThemeProvider>
   )

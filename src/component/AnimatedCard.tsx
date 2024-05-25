@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Card, Slide, Button, Stack, CardContent, Typography, Container } from '@mui/material';
+import { Card, Slide, Button, Stack, CardContent, Typography, Container, Box } from '@mui/material';
 
 export default function AnimatedCard() {
   // TODO:表示制御ではなく、現在のカード番号を表示したい
@@ -35,8 +35,8 @@ export default function AnimatedCard() {
   ];
 
   return (
-    <div >
-      <Stack direction="row" spacing={2}>
+    <Box >
+      <Stack direction="row" justifyContent="center" alignItems="center" spacing={2}>
         <Button onClick={() => handleMove(Math.max(activeIndex - 1, 0))}>Back</Button>
         {/* <Button onClick={() => setReverseZindex(zIndex === 0 ? 1 : 0)}>Change Z-Index</Button> */}
         {/* TODO:direction, nextボタン押された時はright、backボタンが押された時はleftにしたい */}
@@ -76,6 +76,6 @@ export default function AnimatedCard() {
 
         {/* <Button onClick={handleChange}>Change Card Visible</Button> */}
       </Stack >
-    </div >
+    </Box >
   );
 }
