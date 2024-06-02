@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 1,
+    "question_sentence": "問1 マーケティングオートメーション(MA)に関する記述として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 企業内に蓄積された大量のデータを分析して、事業戦略などに有効活用する。",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 小売業やサービス業において、販売した商品単位の情報の収集・蓄積及び分析を行う。",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ これまで人間が手作業で行っていた定型業務を、AIや機械学習などを取り入れたソフトウェアのロボットが代行することによって自動化や効率化を図る。",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 見込み顧客の抽出，獲得、育成などの営業活動を効率化する。",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question_sentence": "問2 情報システムに不正に侵入し、サービスを停止させて社会的混乱を生じさせるような行為に対して、国全体で体系的に防施策を講じるための基本理念を定め、国の責務などを明らかにした法律はどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 公益通報者保護法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ サイバーセキュリティ基本法",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ 不正アクセス禁止法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ プロバイダ責任制限法",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question_sentence": "問3 未来のある時点に目標を設定し、そこを起点に現在を振り返り，目標実現のために現在すべきことを考える方法を表す用語として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア PoC(Proof of Concept)",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ PoV(Proof of Value)",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ バックキャスティング",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ フォアキャスティング",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question_sentence": "問4 従来の金融情報システムは堅ろう性が高い一方、柔軟性に欠け、モバイル技術などの情報革新に追従したサービスの迅速な提供が難しかった。これを踏まえて、インターネット関連技術の取込みやそれらを活用するベンチャー企業と組むなどして、新たな価値や革新的なサービスを提供していく潮流を表す用語として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア オムニチャネル",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ フィンテック",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ ブロックチェーン",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ワントゥワンマーケティング",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question_sentence": "問5 ベンチャーキャピタルに関する記述として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 新しい技術の獲得や、規模の経済性の追求などを目的に、他の企業と共同出資会社を設立する手法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 株式売却による利益獲得などを目的に、新しい製品やサービスを武器に市場に参入しようとする企業に対して出資などを行う企業",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ 新サービスや技術革新などの創出を目的に、国や学術機関、他の企業など外部の組織と共創関係を結び、積極的に技術や資源を交換し、自社に取り込む手法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 特定された課題の解決を目的に、一定の期間を定めて企業内に立ち上げられ、構成員を関連部門から招集し、目的が達成された時点で解散する組織",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question_sentence": "問6 技術戦略の策定や技術開発の推進といった技術経営に直接の責任をもつ役職はどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア CEO",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ CFO",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ COO",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ CTO",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question_sentence": "問7 システム開発の上流工程において、業務プロセスのモデリングを行う目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 業務プロセスで取り扱う大量のデータを、統計的手法やAI手法などを用いて分析し、データ間の相関関係や隠れたパターンなどを見いだすため",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 業務プロセスを可視化することによって、適切なシステム設計のベースとなる情報を整備し、関係者間で解釈を共有できるようにするため",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ 個々の従業員がもっている業務に関する知識・経験やノウハウを社内全体で共有し、創造的なアイディアを生み出すため",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ プロジェクトに必要な要員を調達し、チームとして組織化して、プロジェクトの 目的の達成に向けて一致団結させるため",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question_sentence": "問8 A社の期末の損益計算書から抜粋した資料である。当期純利益が800百万円であるとき、販売費及び一般管理費は何百万円か。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 150",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 200",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ 250",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 300",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question_sentence": "問9 企業の戦略立案やマーケティングなどで使用されるフェルミ推定に関する記述として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 正確に算出することが極めて難しい数量に対して、把握している情報と論理的な思考プロセスによって推定値を求める手法である。",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 特定の集団と活動を共にしたり、人々の動きを観察したりすることによって、慣習や嗜好、地域や組織を取り巻く文化を類推する手法である。",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 入力データと出力データから、その因果関係を統計的に推定する手法である。",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 有識者のグループに繰り返し同一のアンケート調査とその結果のフィードバックを行うことによって、ある分野の将来予測に関する総意を得る手法である。",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question_sentence": "問10 次の文に述べた知的財産権のうち、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 著作権",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 特許権",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ 商標権",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 実用新案権",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question_sentence": "問11 企業において、従業員のセキュリティ意識を向上させるために実施するべき施策として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ネットワークの監視強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 定期的なセキュリティ教育",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ システムのアクセス制御",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 外部委託業者の選定",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question_sentence": "問12 コンピュータネットワークにおけるサーバの役割として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの提供",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 電力の供給",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 温度の管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 通信の確立",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question_sentence": "問13 IoT(Internet of Things)に関する記述として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア インターネットに接続されたデバイス同士が相互に通信し、情報を交換する仕組み",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 人間が直接操作するデバイス",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ インターネットに接続されたデバイスがサーバにデータを送信する仕組み",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ デバイスがインターネットに接続されず、単独で動作する仕組み",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question_sentence": "問14 次の文に述べた情報セキュリティの三要素に含まれないものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 機密性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 完全性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 可用性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 耐久性",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question_sentence": "問15 データベース管理システム(DBMS)の主な機能として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの保存と検索",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの印刷",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの複製",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの破棄",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question_sentence": "問16 次の文に述べたシステムの可用性を確保するための手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア バックアップの定期実施",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ システムのシャットダウン",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ セキュリティパッチの適用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ システムの再起動",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question_sentence": "問17 ソフトウェア開発プロジェクトにおいて、プロジェクトマネージャの役割として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ソフトウェアのコーディング",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ ソフトウェアのテスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ プロジェクトの進捗管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ システムの運用",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question_sentence": "問18 次の文に述べた情報システムの障害対応として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 障害発生時にシステムを停止させる",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 障害発生時にデータをバックアップする",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 障害発生時に障害の原因を特定し、迅速に対応する",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ 障害発生時に新しいシステムに切り替える",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question_sentence": "問19 次の文に述べたデータベースの設計手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア トランザクション管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ レプリケーション",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 正規化",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ インデックス作成",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question_sentence": "問20 次の文に述べたシステム開発手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ウォーターフォールモデル",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ アジャイル開発",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ プロトタイプモデル",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ スパイラルモデル",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question_sentence": "問21 次の文に述べたITガバナンスの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア コスト削減",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 競争優位の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 法令遵守の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITリスクの管理",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question_sentence": "問22 次の文に述べたクラウドコンピューティングの特徴として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 高度なカスタマイズ性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 低コスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ スケーラビリティ",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ 高セキュリティ",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question_sentence": "問23 次の文に述べたITIL(Information Technology Infrastructure Library)の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ITサービスの管理と改善",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ITインフラの構築",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ITセキュリティの強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITリスクの評価",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question_sentence": "問24 次の文に述べたリスクマネジメントのプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア リスクの特定、リスクの評価、リスクの対策",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ リスクの特定、リスクの対策、リスクの評価",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ リスクの対策、リスクの評価、リスクの特定",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクの評価、リスクの対策、リスクの特定",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question_sentence": "問25 次の文に述べたプロジェクトマネジメントの知識エリアに含まれないものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ コストマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 品質マネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 財務マネジメント",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question_sentence": "問26 次の文に述べたソフトウェアのテスト手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ブラックボックステスト",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ホワイトボックステスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ グレーボックステスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ パープルボックステスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question_sentence": "問27 次の文に述べたシステム運用の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア システムの効率的な利用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ システムの保守と管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ システムのアップデート",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question_sentence": "問28 次の文に述べたソフトウェアの保守作業として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 機能追加",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ バグ修正",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ パフォーマンス向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ セキュリティ強化",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question_sentence": "問29 次の文に述べたシステム開発におけるフェーズとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義、設計、実装、テスト、運用",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計、要件定義、実装、テスト、運用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装、要件定義、設計、テスト、運用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テスト、実装、設計、要件定義、運用",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question_sentence": "問30 次の文に述べたセキュリティの脅威として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの漏えい",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの破壊",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの改ざん",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの複製",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question_sentence": "問31 次の文に述べたソフトウェアライフサイクルプロセスの一部として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 開発",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 保守",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 運用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 設計",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question_sentence": "問32 次の文に述べた情報システムのリスク評価の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア リスクの特定",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ リスクの優先順位付け",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ リスクの回避",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクの管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question_sentence": "問33 次の文に述べたプロジェクトスコープマネジメントのプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープの定義",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ スコープの検証",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ スコープの管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ スコープのコントロール",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question_sentence": "問34 次の文に述べた情報セキュリティ管理の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの機密性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ データの完全性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの可用性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの耐久性の確保",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question_sentence": "問35 次の文に述べたソフトウェアテストの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア バグの発見",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ バグの修正",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ バグの回避",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ バグの防止",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question_sentence": "問36 次の文に述べた情報システムの監査目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 情報システムの効率的な利用",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 情報システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 情報システムの保守と管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 情報システムのアップデート",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question_sentence": "問37 次の文に述べた情報システムのセキュリティ対策として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ファイアウォールの設置",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ウイルス対策ソフトの導入",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 暗号化の実施",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ アクセス制御の強化",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question_sentence": "問38 次の文に述べたクラウドサービスの利点として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 低コスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 高セキュリティ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 高可用性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 高スケーラビリティ",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question_sentence": "問39 次の文に述べたシステム開発の失敗原因として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義の不備",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計の不備",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装の不備",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テストの不備",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question_sentence": "問40 次の文に述べたIT投資の評価方法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 投資回収期間法",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 純現在価値法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 内部収益率法",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 正味現在価値法",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question_sentence": "問41 次の文に述べたプロジェクトマネジメントの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア プロジェクトの成功",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ プロジェクトの計画",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ プロジェクトの監視",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ プロジェクトの評価",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question_sentence": "問42 次の文に述べた情報システムの可用性の確保手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア システムのバックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ システムの冗長化",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ システムの更新",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question_sentence": "問43 次の文に述べたクラウドサービスのリスクとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの漏洩",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの削除",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの破壊",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの改ざん",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question_sentence": "問44 次の文に述べたITサービスマネジメントの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ITサービスの提供",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ ITサービスの設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ITサービスの運用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITサービスの改善",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question_sentence": "問45 次の文に述べたデータベースの利用目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの保存",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ データの分析",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "ウ データの削除",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの変更",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question_sentence": "問46 次の文に述べた情報システムの障害対策として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 障害の予防",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 障害の検知",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 障害の修復",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "エ 障害の報告",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question_sentence": "問47 次の文に述べた情報セキュリティの管理手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア セキュリティポリシーの策定",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ セキュリティ教育の実施",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ セキュリティ対策の導入",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ セキュリティ監査の実施",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question_sentence": "問48 次の文に述べた情報システムの運用管理の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア システムの安定稼働",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ システムの性能向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ システムのコスト削減",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ システムの更新",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question_sentence": "問49 次の文に述べたITガバナンスの確立手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア IT戦略の策定",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ITリスクの評価",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ IT資源の管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITプロジェクトの監視",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question_sentence": "問50 次の文に述べたソフトウェア開発のアジャイル手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スクラム",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ウォーターフォール",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ プロトタイプ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ スパイラル",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question_sentence": "問51 次の文に述べたプロジェクトリスクマネジメントのプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア リスクの特定",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ リスクの評価",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ リスクの対策",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクの監視",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question_sentence": "問52 次の文に述べたシステム障害の発生原因として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ハードウェアの故障",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ソフトウェアのバグ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ユーザーの操作ミス",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ウイルスの感染",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question_sentence": "問53 次の文に述べた情報セキュリティ対策の一環として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ファイアウォールの設置",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ウイルス対策ソフトの導入",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 暗号化の実施",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ アクセス制御の強化",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question_sentence": "問54 次の文に述べたクラウドサービスの利用目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア コスト削減",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 性能向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ セキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの保護",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question_sentence": "問55 次の文に述べたソフトウェアライフサイクルのプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question_sentence": "問56 次の文に述べたITサービスの管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ITIL",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ COBIT",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ CMMI",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ISO 20000",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question_sentence": "問57 次の文に述べた情報システムのバックアップ手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア フルバックアップ",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 差分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 増分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ミラーリング",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question_sentence": "問58 次の文に述べたデータベースのトランザクション管理の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの整合性の確保",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの可用性の向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの機密性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの耐久性の向上",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question_sentence": "問59 次の文に述べたシステム開発のフェーズとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question_sentence": "問60 次の文に述べた情報システムの運用管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア インシデント管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 問題管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 変更管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 構成管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question_sentence": "問61 次の文に述べたデータベースのリカバリ手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ログの適用",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データのバックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの複製",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの移行",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question_sentence": "問62 次の文に述べたシステム開発のアプローチとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア アジャイル開発",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ウォーターフォール開発",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ プロトタイプ開発",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ スパイラル開発",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question_sentence": "問63 次の文に述べたソフトウェアの設計手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア オブジェクト指向設計",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 構造化設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ モジュール設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 関数設計",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question_sentence": "問64 次の文に述べたクラウドサービスの提供形態として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア SaaS",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ PaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ IaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ DaaS",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question_sentence": "問65 次の文に述べた情報システムのパフォーマンス評価手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ベンチマークテスト",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ ストレステスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ロードテスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ユニットテスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question_sentence": "問66 次の文に述べたITサービスの提供形態として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア クラウドサービス",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ オンプレミス",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ハイブリッドクラウド",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ マネージドサービス",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question_sentence": "問67 次の文に述べたソフトウェアのテストプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 単体テスト",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 結合テスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ システムテスト",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 受け入れテスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question_sentence": "問68 次の文に述べたプロジェクトマネジメントの知識エリアとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープマネジメント",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ コストマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ タイムマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクマネジメント",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question_sentence": "問69 次の文に述べた情報システムの障害対応手順として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 障害の検知、障害の分析、障害の復旧",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 障害の検知、障害の復旧、障害の分析",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 障害の分析、障害の検知、障害の復旧",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 障害の復旧、障害の分析、障害の検知",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question_sentence": "問70 次の文に述べたデータベースの利用目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの保存",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの分析",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの削除",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの変更",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question_sentence": "問71 次の文に述べたデータベースのセキュリティ対策として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア アクセス制御",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 暗号化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ログ管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ バックアップ",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question_sentence": "問72 次の文に述べたシステム開発のプロセスとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ウォーターフォールモデル",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ アジャイルモデル",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ スパイラルモデル",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ プロトタイプモデル",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question_sentence": "問73 次の文に述べたITサービスの可用性を確保する手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア システムの冗長化",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ システムのバックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ システムの更新",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question_sentence": "問74 次の文に述べたソフトウェアのバージョン管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア Git",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ Subversion",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ Mercurial",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ CVS",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question_sentence": "問75 次の文に述べた情報システムの運用管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア インシデント管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 問題管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 変更管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 構成管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question_sentence": "問76 次の文に述べたITガバナンスの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア コスト削減",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 競争優位の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 法令遵守の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITリスクの管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question_sentence": "問77 次の文に述べた情報セキュリティの三要素に含まれないものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 機密性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 完全性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 可用性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 耐久性",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question_sentence": "問78 次の文に述べたクラウドサービスの提供形態として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア SaaS",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ PaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ IaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ DaaS",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question_sentence": "問79 次の文に述べたプロジェクトマネジメントの知識エリアとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープマネジメント",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ コストマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ タイムマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクマネジメント",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question_sentence": "問80 次の文に述べたITサービスマネジメントの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア ITサービスの提供",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ ITサービスの設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ITサービスの運用",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITサービスの改善",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "question_sentence": "問81 次の文に述べた情報システムの監査目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 情報システムの効率的な利用",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 情報システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 情報システムの保守と管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 情報システムのアップデート",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "question_sentence": "問82 次の文に述べたITサービスの提供手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア クラウドサービス",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ オンプレミス",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ハイブリッドクラウド",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ マネージドサービス",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "question_sentence": "問83 次の文に述べた情報システムのバックアップ手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア フルバックアップ",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 差分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 増分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ミラーリング",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "question_sentence": "問84 次の文に述べたデータベースのトランザクション管理の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの整合性の確保",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの可用性の向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの機密性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの耐久性の向上",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "question_sentence": "問85 次の文に述べたシステム開発のフェーズとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "question_sentence": "問86 次の文に述べた情報システムの運用管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア インシデント管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 問題管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 変更管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 構成管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "question_sentence": "問87 次の文に述べたITガバナンスの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア コスト削減",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 競争優位の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 法令遵守の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITリスクの管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "question_sentence": "問88 次の文に述べた情報セキュリティの三要素に含まれないものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 機密性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 完全性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 可用性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 耐久性",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "question_sentence": "問89 次の文に述べたクラウドサービスの提供形態として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア SaaS",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ PaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ IaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ DaaS",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "question_sentence": "問90 次の文に述べたプロジェクトマネジメントの知識エリアとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープマネジメント",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ コストマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ タイムマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクマネジメント",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "question_sentence": "問91 次の文に述べた情報システムの監査目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 情報システムの効率的な利用",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 情報システムのセキュリティ強化",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 情報システムの保守と管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 情報システムのアップデート",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "question_sentence": "問92 次の文に述べたITサービスの提供手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア クラウドサービス",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ オンプレミス",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ ハイブリッドクラウド",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ マネージドサービス",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "question_sentence": "問93 次の文に述べた情報システムのバックアップ手段として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア フルバックアップ",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 差分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 増分バックアップ",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ミラーリング",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "question_sentence": "問94 次の文に述べたデータベースのトランザクション管理の目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア データの整合性の確保",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ データの可用性の向上",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ データの機密性の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ データの耐久性の向上",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "question_sentence": "問95 次の文に述べたシステム開発のフェーズとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 要件定義",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 設計",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 実装",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ テスト",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "question_sentence": "問96 次の文に述べた情報システムの運用管理手法として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア インシデント管理",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 問題管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 変更管理",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 構成管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "question_sentence": "問97 次の文に述べたITガバナンスの目的として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア コスト削減",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ 競争優位の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 法令遵守の確保",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ ITリスクの管理",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "question_sentence": "問98 次の文に述べた情報セキュリティの三要素に含まれないものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア 機密性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "イ 完全性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ 可用性",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ 耐久性",
+        "is_correct_answer": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "question_sentence": "問99 次の文に述べたクラウドサービスの提供形態として、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア SaaS",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ PaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ IaaS",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ DaaS",
+        "is_correct_answer": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "question_sentence": "問100 次の文に述べたプロジェクトマネジメントの知識エリアとして、最も適切なものはどれか。",
+    "correct_answer_count": 1,
+    "answers_attributes": [
+      {
+        "answer_sentence": "ア スコープマネジメント",
+        "is_correct_answer": true
+      },
+      {
+        "answer_sentence": "イ コストマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "ウ タイムマネジメント",
+        "is_correct_answer": false
+      },
+      {
+        "answer_sentence": "エ リスクマネジメント",
+        "is_correct_answer": false
+      }
+    ]
+  }
+]
