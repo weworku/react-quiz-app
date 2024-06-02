@@ -1,9 +1,9 @@
 // import './App.css'
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline'
-import AnimatedCard from './component/AnimatedCard'
-import ButtonAppBar from './component/ButtonAppBar'
 import theme from './theme';
+import ButtonAppBar from './component/ButtonAppBar'
+import QuizApp from './component/QuizApp';
 
 function App() {
   return (
@@ -12,10 +12,7 @@ function App() {
       {/* ヘッダー部 */}
       <ButtonAppBar />
       {/* ボディー部 */}
-      {/* 問題の解答状況インジケーター */}
-
-      {/* カード式の問題・回答 */}
-      <AnimatedCard />
+      <QuizApp />
 
     </ThemeProvider>
   )
