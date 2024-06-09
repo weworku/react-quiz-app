@@ -7,8 +7,9 @@ export type CardData = {
       is_correct_answer: boolean;
     }
   ]
-  correctAnswer: string;
-  color: string;
+  correctAnswer: string; //** 正答 */
+  userCorrectAnswer: string; //** ユーザーが選択した正答 */
+  explanation: string;
 }
 export type QuizData = {
   id: number;
@@ -20,4 +21,8 @@ export type QuizData = {
       is_correct_answer: boolean;
     }
   ]
+  explanation: string;
+}
+export type QuizResult = {
+  correctAnswerCount: number;
 }

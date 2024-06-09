@@ -20,6 +20,7 @@ export default function HorizontalLinearStepper({ activeStep, skipped }: Props) 
     <Box display="flex" justifyContent="center" alignItems="center" >
       <Box sx={{ width: '50%', mb: 1.5 }}>
         <Stepper activeStep={activeStep}>
+          {/* TODO:labelとindexが同じ値なので、どちらかにしたい */}
           {steps.map((label, index) => {
             const stepProps: { completed?: boolean } = {};
             const labelProps: {
@@ -29,7 +30,7 @@ export default function HorizontalLinearStepper({ activeStep, skipped }: Props) 
               stepProps.completed = false;
             }
             return (
-              <Step key={label} {...stepProps}>
+              <Step key={index} {...stepProps}>
                 <StepLabel {...labelProps}>{label}</StepLabel>
               </Step>
             );

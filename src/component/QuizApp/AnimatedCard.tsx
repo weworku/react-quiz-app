@@ -1,18 +1,23 @@
 
-import { CardData } from '../../type';
+import { CardData, QuizResult } from '../../type';
 import { Card, Slide, Button, Stack, CardContent, Typography, Container, Box, RadioGroup, FormControlLabel, Radio } from '@mui/material';
 
 type Props = {
   cards: CardData[],
+  setCards: React.Dispatch<React.SetStateAction<CardData[]>>,
   position: 'left' | 'right',
   setPosition: React.Dispatch<React.SetStateAction<'left' | 'right'>>,
   activeIndex: number,
   setActiveIndex: React.Dispatch<React.SetStateAction<number>>,
   skipped: Set<number>,
   setSkipped: React.Dispatch<React.SetStateAction<Set<number>>>,
+  setFifnished: React.Dispatch<React.SetStateAction<boolean>>,
+  setQuizResult: React.Dispatch<React.SetStateAction<QuizResult>>,
 }
 
-export default function AnimatedCard({ cards, position, setPosition, activeIndex, setActiveIndex, skipped, setSkipped }: Props) {
+export default function AnimatedCard(
+  { cards, setCards, position, setPosition, activeIndex, setActiveIndex,
+    skipped, setSkipped, setFifnished, setQuizResult }: Props) {
   const handleMove = (newIndex: number): void => {
     // 今表示中のカードと次に表示するカードは向きが逆になる
     setPosition(newIndex < activeIndex ? 'right' : 'left');
@@ -47,12 +52,27 @@ export default function AnimatedCard({ cards, position, setPosition, activeIndex
     });
   };
 
+  const handleCorrectAnswerChenge = (event: React.ChangeEvent<HTMLInputElement>, index: number) => {
+    cards[index].userCorrectAnswer = event.target.value;
+    setCards([...cards]);
+  }
+
   const handleFinish = () => {
     // TODO: 終了処理
+    // 採点とか
+    let correctAnswerCount = 0;
+    cards.forEach((card) => {
+      if (card.correctAnswer === card.userCorrectAnswer) {
+        correctAnswerCount++;
+      }
+    });
+    setQuizResult({ correctAnswerCount });
+    // 終了状態にする
+    setFifnished(true);
   }
 
   return (
-    <Box >
+    <Box>
       <Stack direction="row" justifyContent="center" alignItems="center" spacing={2}>
         <Button
           onClick={() => handleMove(Math.max(activeIndex - 1, 0))}
@@ -66,23 +86,23 @@ export default function AnimatedCard({ cards, position, setPosition, activeIndex
           <Card
             sx={{
               width: '100%', height: '90%',
-              'background-color': 'white',
-              'z-Index': '-1',
+              backgroundColor: 'white',
+              zIndex: '-1',
             }} />
           {/* 以下がスライドさせるカード */}
           {cards.map((card, index) => (
-            <Slide direction={index === activeIndex ? position : reversePosition(position)}
+            <Slide key={index} direction={index === activeIndex ? position : reversePosition(position)}
               in={hasCurrentIndex(index)} mountOnEnter unmountOnExit timeout={{ enter: 500, exit: 500 }}>
               <Card
                 key={index}
                 sx={{
                   width: '100%', height: '90%',
-                  'background-color': card.color,
+                  backgroundColor: 'lightblue',
                   position: 'absolute',
                   top: 0,
                   left: 0,
                   overflowY: 'auto',
-                  'z-Index': 'auto',
+                  zIndex: 'auto',
                 }} >
                 <CardContent>
                   <Typography component="h3" variant="h5" mb={1}>{card.title}</Typography>
@@ -91,10 +111,12 @@ export default function AnimatedCard({ cards, position, setPosition, activeIndex
                     aria-labelledby="demo-radio-buttons-group-label"
                     name="radio-buttons-group"
                   >
-                    <FormControlLabel value='ア' control={<Radio />} label={card.answers[0].answer_sentence} />
-                    <FormControlLabel value='イ' control={<Radio />} label={card.answers[1].answer_sentence} />
-                    <FormControlLabel value='ウ' control={<Radio />} label={card.answers[2].answer_sentence} />
-                    <FormControlLabel value='エ' control={<Radio />} label={card.answers[3].answer_sentence} />
+                    {/* TODO:下のところループに書き換えたい */}
+                    {['ア', 'イ', 'ウ', 'エ'].map((value, i) => (
+                      <FormControlLabel key={i} value={value} control={<Radio />} label={card.answers[i].answer_sentence}
+                        onChange={(e) => handleCorrectAnswerChenge(e as React.ChangeEvent<HTMLInputElement>, index)}
+                        checked={card.userCorrectAnswer === value} />))
+                    }
                   </RadioGroup>
                 </CardContent>
               </Card>
