@@ -38,10 +38,26 @@ export default function QuizApp() {
             setSkipped={setSkipped}
             setFifnished={setFinished}
             setQuizResult={setQuizResult}
+            explainMode={false}
           />
         </>
       ) : (
-        <QuizResultSummary setFifnished={setFinished} quizResult={QuizResult} />
+        <>
+          <QuizResultSummary quizResult={QuizResult} />
+          <AnimatedCard
+            cards={cards}
+            setCards={setCards}
+            activeIndex={activeIndex}
+            setActiveIndex={setActiveIndex}
+            position={position}
+            setPosition={setPosition}
+            skipped={skipped}
+            setSkipped={setSkipped}
+            setFifnished={setFinished}
+            setQuizResult={setQuizResult}
+            explainMode={true}
+          />
+        </>
       )}
     </>)
 }

@@ -249,7 +249,7 @@
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "イ IS09001の導入",
+                "answer_sentence": "イ ISO9001の導入",
                 "is_correct_answer": true
             },
             {
@@ -913,7 +913,7 @@
     },
     {
         "id": 39,
-        "question_sentence": "問39 サービスデスクを評価するためには適切なKPI を定めて評価する必要がある。顧客満足度を高めるために値が小さい方が良いKPI として、適切なものだけを全て挙げたものはどれか。",
+        "question_sentence": "問39 サービスデスクを評価するためには適切なKPI を定めて評価する必要がある。顧客満足度を高めるために値が小さい方が良いKPI として、適切なものだけを全て挙げたものはどれか。\na SLAで合意された目標時間内に対応が完了したインシデント件数の割合\nb 1回の問合せで解決ができたインシデント件数の割合\nc 二次担当へエスカレーションされたインシデント件数の割合\nd 利用者がサービスデスクの担者につながるまでに費やした時間",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1081,7 +1081,7 @@
     },
     {
         "id": 46,
-        "question_sentence": "問46 ITサービスマネジメントの管理プロセスに関する記述a~cと用語の適切な組合せはどれか。",
+        "question_sentence": "問46 ITサービスマネジメントの管理プロセスに関する記述a~cと用語の適切な組合せはどれか。\na ITサービスの変更を実装するためのプロセス\nb インシデントの根本原因を突き止めて解決策を提供するためのプロセス\nc 組織が所有しているIT資産を把握するためのプロセス",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1153,7 +1153,7 @@
     },
     {
         "id": 49,
-        "question_sentence": "問49 ソフトウェア開発プロジェクトにおけるコストの見積手法には、積み上げ法、ファンクションポイント法、類推見積法などがある。見積りで使用した手法とその特徴に関する記述a~cの適切な組合せはどれか。",
+        "question_sentence": "問49 ソフトウェア開発プロジェクトにおけるコストの見積手法には、積み上げ法、ファンクションポイント法、類推見積法などがある。見積りで使用した手法とその特徴に関する記述a~cの適切な組合せはどれか。\na プロジェクトに必要な個々の作業を洗い出し、その作業ごとの工数を見積もって集計する。\nb プロジェクトの初期段階で使用する手法で、過去の事例を活用してコストを見積もる。\nc データ入出力や機能に着目して、ソフトウェア規模を見積もり、係数を乗ずるなどしてコストを見積もる。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1897,19 +1897,23 @@
     },
     {
         "id": 80,
-        "question_sentence": "問80 OSS (Open Source Software)に関する記述として、適切なものだけを全て挙げたものはどれか。",
+        "question_sentence": "問80 OSS (Open Source Software)に関する記述として、適切なものだけを全て挙げたものはどれか。\na OSS を利用して作成したソフトウェアを販売することができる。\nb ソースコードが公開されたソ フトウェアは全てOSSである。\nc 著作権が放棄されているソフトウェアである。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
-                "answer_sentence": "ア OSS を利用して作成したソフトウェアを販売することができる。",
+                "answer_sentence": "ア a",
                 "is_correct_answer": true
             },
             {
-                "answer_sentence": "イ ソースコードが公開されたソフトウェアは全てOSSである。",
+                "answer_sentence": "イ a, b",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "ウ 著作権が放棄されているソフトウェアである。",
+                "answer_sentence": "ウ b, c",
+                "is_correct_answer": false
+            },
+            {
+                "answer_sentence": "エ c",
                 "is_correct_answer": false
             }
         ],

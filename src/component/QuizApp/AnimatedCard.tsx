@@ -1,6 +1,8 @@
 
 import { CardData, QuizResult } from '../../type';
 import { Card, Slide, Button, Stack, CardContent, Typography, Container, Box, RadioGroup, FormControlLabel, Radio } from '@mui/material';
+import PanoramaFishEyeIcon from '@mui/icons-material/PanoramaFishEye';
+import ClearIcon from '@mui/icons-material/Clear';
 
 type Props = {
   cards: CardData[],
@@ -13,11 +15,12 @@ type Props = {
   setSkipped: React.Dispatch<React.SetStateAction<Set<number>>>,
   setFifnished: React.Dispatch<React.SetStateAction<boolean>>,
   setQuizResult: React.Dispatch<React.SetStateAction<QuizResult>>,
+  explainMode: boolean,
 }
 
 export default function AnimatedCard(
   { cards, setCards, position, setPosition, activeIndex, setActiveIndex,
-    skipped, setSkipped, setFifnished, setQuizResult }: Props) {
+    skipped, setSkipped, setFifnished, setQuizResult, explainMode = false }: Props) {
   const handleMove = (newIndex: number): void => {
     // 今表示中のカードと次に表示するカードは向きが逆になる
     setPosition(newIndex < activeIndex ? 'right' : 'left');
@@ -67,6 +70,7 @@ export default function AnimatedCard(
       }
     });
     setQuizResult({ correctAnswerCount });
+    setActiveIndex(0);
     // 終了状態にする
     setFifnished(true);
   }
@@ -111,29 +115,68 @@ export default function AnimatedCard(
                     aria-labelledby="demo-radio-buttons-group-label"
                     name="radio-buttons-group"
                   >
-                    {/* TODO:下のところループに書き換えたい */}
                     {['ア', 'イ', 'ウ', 'エ'].map((value, i) => (
                       <FormControlLabel key={i} value={value} control={<Radio />} label={card.answers[i].answer_sentence}
                         onChange={(e) => handleCorrectAnswerChenge(e as React.ChangeEvent<HTMLInputElement>, index)}
-                        checked={card.userCorrectAnswer === value} />))
+                        checked={card.userCorrectAnswer === value} disabled={explainMode} />))
                     }
                   </RadioGroup>
                 </CardContent>
+                {explainMode && (
+                  <>
+                    <CardContent>
+                      <Typography component="h3" variant="h5" mb={1}>解説</Typography>
+                      <Typography variant="body1" mb={1.5}>
+                        正解: {card.correctAnswer}
+                      </Typography>
+                      <Typography variant="body1" mb={1.5}>
+                        {card.explanation}
+                      </Typography>
+                    </CardContent>
+                    {/* 背景アイコン */}
+                    <Box
+                      sx={{
+                        position: 'absolute',
+                        top: '0',
+                        left: '0',
+                        width: '100%',
+                        height: '100%',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        color: 'rgba(0, 0, 0, 0.1)', // アイコンの色と透過度を設定
+                      }}
+                    >
+                      {card.correctAnswer === card.userCorrectAnswer ?
+                        (
+                          // 正解
+                          <PanoramaFishEyeIcon sx={{ fontSize: 260 }} />
+                        ) : (
+                          // 不正解
+                          <ClearIcon sx={{ fontSize: 300 }} />
+                        )}
+                    </Box>
+                  </>
+                )}
               </Card>
             </Slide>
           ))}
         </Container >
         <Stack spacing={2} >
-          {activeIndex === cards.length - 1 ? (
-            <Button onClick={handleFinish}
-              style={{ margin: 0 }}>
-              Finish
-            </Button>
+          {(activeIndex === cards.length - 1) ? (
+            (!explainMode) && (
+              <Button onClick={handleFinish} style={{ margin: 0 }}>
+                Finish
+              </Button>
+            )
           ) : (
             <>
-              <Button color="inherit" onClick={handleSkip} sx={{ mr: 1 }} >
-                Skip
-              </Button>
+              {!explainMode && (
+                // 解説モードではskipボタンは表示しないよ
+                <Button color="inherit" onClick={handleSkip} sx={{ mr: 1 }} >
+                  Skip
+                </Button>
+              )}
               <Button onClick={() => handleMove(Math.min(activeIndex + 1, cards.length - 1))}
                 style={{ margin: 0 }}>
                 Next
