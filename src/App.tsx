@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 import theme from './theme';
 import ButtonAppBar from './component/ButtonAppBar'
 import QuizApp from './component/QuizApp/QuizApp';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <ButtonAppBar />
       {/* ボディー部 */}
       <QuizApp />
-
+      <Typography align={'right'}>※出典：令和6年度分 ITパスポート試験 </Typography>
     </ThemeProvider>
   )
 }

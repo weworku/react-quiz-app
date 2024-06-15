@@ -3,9 +3,10 @@ import { CardData, QuizData } from '../type';
 
 export default function useQuizData({ setCards }: { setCards: (cards: CardData[]) => void }) {
   useEffect(() => {
+    const baseUrl = import.meta.env.VITE_BASE_URL;
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/it_passport_questions_r06.json');
+        const response = await fetch(`${baseUrl}/data/it_passport_questions_r06.json`);
         const data: QuizData[] = await response.json();
         const randomQuestions = getRandomQuestions(data, 10);
         console.log('randomQuestions:', randomQuestions);
