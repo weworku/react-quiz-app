@@ -6,9 +6,9 @@ export default function useQuizData({ setCards }: { setCards: (cards: CardData[]
     const baseUrl = import.meta.env.VITE_BASE_URL;
     const fetchData = async () => {
       try {
-        const response = await fetch(`${baseUrl}/data/it_passport_questions_r06.json`);
+        const response = await fetch(`${baseUrl}/data/r06_01/it_passport_questions_r06.json`);
         const data: QuizData[] = await response.json();
-        const randomQuestions = getRandomQuestions(data, 10);
+        const randomQuestions = getRandomQuestions(data, 10, baseUrl);
         console.log('randomQuestions:', randomQuestions);
         setCards(randomQuestions);
       } catch (error) {
@@ -19,20 +19,21 @@ export default function useQuizData({ setCards }: { setCards: (cards: CardData[]
     fetchData();
   }, []);
 
-  const getRandomQuestions = (data: QuizData[], count: number): CardData[] => {
+  const getRandomQuestions = (data: QuizData[], count: number, baseUrl: string): CardData[] => {
     const shuffledData = data.sort(() => Math.random() - 0.5);
     return shuffledData.slice(0, count).map((quiz) => ({
       title: quiz.question_sentence.substring(0, quiz.question_sentence.indexOf(' ')),
       description: quiz.question_sentence.substring(quiz.question_sentence.indexOf(' '), quiz.question_sentence.length),
+      imageUrl: quiz.image_url ? `${baseUrl}${quiz.image_url}` : undefined,
       answers: quiz.answers_attributes,
-      correctAnswer: quiz.answers_attributes.find((answer) => answer.is_correct_answer)?.answer_sentence.substring(0, 1) || '',
+      correctAnswer: quiz.answers_attributes.find((answer) => answer.is_correct_answer)?.answer_sentence.substring(0, 1) ?? '',
       userCorrectAnswer: '',
       explanation: quiz.explanation,
     }));
   };
 }
 
-
+// dummy data
 // const cards: CardData[] = [
 //   {
 //     title: '問題1',

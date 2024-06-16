@@ -170,6 +170,7 @@
     {
         "id": 8,
         "question_sentence": "問8 A社の期末の損益計算書から抜粋した資料である。当期純利益が800百万円であるとき、販売費及び一般管理費は何百万円か。",
+        "image_url": "/data/r06_01/q008.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -178,18 +179,18 @@
             },
             {
                 "answer_sentence": "イ 900",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ 1,000",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "エ 1,200",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "期末の損益計算書に基づくと、当期純利益が800百万円の場合、販売費及び一般管理費は200百万円となります。他の選択肢は誤りです。"
+        "explanation": "販売費及び一般管理費は、当期純利益から売上総利益を差し引いた金額です。売上総利益は1,800百万円であるため、販売費及び一般管理費は1,000百万円です。"
     },
     {
         "id": 9,
@@ -529,12 +530,12 @@
     },
     {
         "id": 23,
-        "question_sentence": "問23 A社はRPAソフトウェアを初めて導入するに当たり、計画策定フェーズ、先行導入フェーズ、本格導入フェーズの3段階で進めようと考えている。次のうち、計画策定フェーズで実施する作業として、適切なものだけを全て挙げたものはどれか。",
+        "question_sentence": "問23 A社はRPAソフトウェアを初めて導入するに当たり、計画策定フェーズ、先行導入フェーズ、本格導入フェーズの3段階で進めようと考えている。次のうち、計画策定フェーズで実施する作業として、適切なものだけを全て挙げたものはどれか。\n a RPA ソフトウェアの適用可能性を見極めるための概念検証を実施する。\n b RPAソフトウェアを全社展開するための導入と運用の手順書を作成する。\n c 部門、業務を絞り込んでRPAソフトウェアを導入し、効果を実測する。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
                 "answer_sentence": "ア a",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "イ a, c",
@@ -546,14 +547,15 @@
             },
             {
                 "answer_sentence": "エ b, c",
-                "is_correct_answer": true
+                "is_correct_answer": false
             }
         ],
-        "explanation": "計画策定フェーズでは、RPAソフトウェアを全社展開するための導入と運用の手順書を作成し、部門、業務を絞り込んでRPAソフトウェアを導入し、効果を実測します。"
+        "explanation": "計画策定フェーズでは、RPAソフトウェアの適用可能性を見極めるための概念検証を実施します。他の選択肢は先行導入フェーズや本格導入フェーズで実施する作業です。"
     },
     {
         "id": 24,
         "question_sentence": "問24 式は定期発注方式で原料の発注量を求める計算式である。a~cに入れる字句の適切な組合せはどれか。",
+        "image_url": "/data/r06_01/q024.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -562,18 +564,18 @@
             },
             {
                 "answer_sentence": "イ 発注間隔",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ 安全在庫量",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "エ 現在の発注残",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "定期発注方式における発注量の計算式には、発注間隔、営業日数、安全在庫量などが含まれます。"
+        "explanation": "定期発注方式で原料の発注量を求める計算式は、発注点（安全在庫量）- 現在の発注残です。安全在庫量は、最大在庫量 - 最小在庫量です。"
     },
     {
         "id": 25,
@@ -625,7 +627,7 @@
     },
     {
         "id": 27,
-        "question_sentence": "問27 個人情報保護法では、あらかじめ本人の同意を得ていなくても個人データの提供が許される行為を規定している。この行為に該当するものだけを、全て挙げたものはどれか。",
+        "question_sentence": "問27 個人情報保護法では、あらかじめ本人の同意を得ていなくても個人データの提供が許される行為を規定している。この行為に該当するものだけを、全て挙げたものはどれか。\n\na 事故で意識不明の人がもっていた本人の社員証を見て、搬送先の病院が本人の 会社に電話してきたので、総務の担当者が本人の自宅電話番号を教えた。\nb 新規加入者を勧誘したいと保険会社の従業員に頼まれたので、総務の担当者が 新入社員の名前と所属部門のリストを渡した。\nc 不正送金等の金融犯罪被害者に関する個人情報を、類似犯罪の防止対策を進め る捜査機関からの法令に基づく要請に応じて、総務の担当者が提供した。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -841,7 +843,7 @@
     },
     {
         "id": 36,
-        "question_sentence": "問36 プロジェクトに該当する事例として、適切なものだけを全て挙げたものはどれか。\na 会社合併に伴う新組織への移行\nb 社内システムの問合せや不具合を受け付けるサービスデスクの運用\nc 新規の経理システム導入に向けたプログラム開発\nd 毎年度末に実施する会計処理",
+        "question_sentence": "問36 プロジェクトに該当する事例として、適切なものだけを全て挙げたものはどれか。\n\n a 会社合併に伴う新組織への移行\n b 社内システムの問合せや不具合を受け付けるサービスデスクの運用\n c 新規の経理システム導入に向けたプログラム開発\n d 毎年度末に実施する会計処理",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -898,18 +900,18 @@
             },
             {
                 "answer_sentence": "イ 1.5",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "ウ 1.8",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "エ 2.1",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "1週間の総利用可能時間は75時間（15時間×5日）です。98%の稼働率を維持するためには、最大1.5時間の停止が許容されます。"
+        "explanation": "1日の利用可能時間は15時間です。1週間の運用で利用可能時間は5日間なので、1週間の利用可能時間は15時間×5日=75時間です。稼働率が98%以上であるため、1週間の運用で許容される停止時間は75時間×(1-0.98)=1.5時間です。"
     },
     {
         "id": 39,
@@ -926,14 +928,14 @@
             },
             {
                 "answer_sentence": "ウ b, c",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "エ c, d",
-                "is_correct_answer": false
+                "is_correct_answer": true
             }
         ],
-        "explanation": "顧客満足度を高めるためには、一回の問い合わせで解決できたインシデント件数の割合（b）と、二次担当へエスカレーションされたインシデント件数の割合（c）が重要です。"
+        "explanation": "顧客満足度を高めるためには、サービスデスクの担当者につながるまでに費やした時間が短い方が良いため、dのKPIが適しています。"
     },
     {
         "id": 40,
@@ -942,11 +944,11 @@
         "answers_attributes": [
             {
                 "answer_sentence": "ア 開発する機能を小さい単位に分割して、優先度の高いものから短期間で開発とリリースを繰り返す。",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "イ 共通フレームを適用して要件定義、設計などの工程名及び作成する文書を定義する。",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ システム開発を上流工程から下流工程まで順番に進めて、全ての開発工程が終了してからリリースする。",
@@ -957,11 +959,12 @@
                 "is_correct_answer": false
             }
         ],
-        "explanation": "アジャイル開発は、共通フレームを適用して要件定義、設計などの工程名及び作成する文書を定義する方法です。他の選択肢はアジャイル開発の特徴には当てはまりません。"
+        "explanation": "アジャイル開発は、開発する機能を小さい単位に分割して、優先度の高いものから短期間で開発とリリースを繰り返す手法です。これにより、柔軟に変更に対応できます。"
     },
     {
         "id": 41,
         "question_sentence": "問41 あるプロジェクトの作業間の関係と所要時間がアローダイアグラムで示されている。このアローダイアグラムのBからEの四つの結合点のうち、工程全体の完了時間に影響を与えることなく、その結合点から始まる全ての作業の開始を最も遅らせることができるものはどれか。",
+        "image_url": "/data/r06_01/q041.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -985,7 +988,7 @@
     },
     {
         "id": 42,
-        "question_sentence": "問42 システム監査人の役割として、適切なものだけを全て挙げたものはどれか。",
+        "question_sentence": "問42 システム監査人の役割として、適切なものだけを全て挙げたものはどれか。\n\n a 監査手続の種類、実施時期、適用範囲などについて、監査計画を立案する。\n b 監査の目的に応じた監査報告書を作成し、社内に公開する。\n c 監査報告書にある改善提案に基づく改善の実施を監査対象部門に指示する。\n d 監査報告書にある改善提案に基づく改善の実施状況をモニタリングする。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -994,7 +997,7 @@
             },
             {
                 "answer_sentence": "イ a, d",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "ウ b, c",
@@ -1002,14 +1005,14 @@
             },
             {
                 "answer_sentence": "エ c, d",
-                "is_correct_answer": true
+                "is_correct_answer": false
             }
         ],
-        "explanation": "システム監査人の役割として、監査報告書にある改善提案に基づく改善の実施を監査対象部門に指示し、改善の実施状況をモニタリングすることが含まれます。"
+        "explanation": "システム監査人は、監査手続の種類、実施時期、適用範囲などについて監査計画を立案し、監査報告書にある改善提案に基づく改善の実施状況をモニタリングします。"
     },
     {
         "id": 43,
-        "question_sentence": "問43 情報システムに関する施設や設備を維持・保全するために行うリスク対策のうち、ファシリティマネジメントの観点から行う対策として、適切なものだけを全て挙げたものはどれか。",
+        "question_sentence": "問43 情報システムに関する施設や設備を維持・保全するために行うリスク対策のうち、ファシリティマネジメントの観点から行う対策として、適切なものだけを全て挙げたものはどれか。\n\n a コンピュータ室への入室を、認可した者だけに限定する。\n b コンビュータの設置場所を示す標識を掲示しない。\n c 利用者のPCにマルウェア対策ソフトを導入する。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1018,18 +1021,18 @@
             },
             {
                 "answer_sentence": "イ a, b",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "ウ a, c",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "エ b, c",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "ファシリティマネジメントの観点から行う対策として、コンピュータ室への入室を認可した者だけに限定し、コンピュータの設置場所を示す標識を掲示しないことが含まれます。"
+        "explanation": "ファシリティマネジメントの観点から行うリスク対策として、コンピュータ室への入室を認可した者だけに限定することが重要です。また、コンピュータの設置場所を示す標識を掲示することも効果的です。"
     },
     {
         "id": 44,
@@ -1082,6 +1085,7 @@
     {
         "id": 46,
         "question_sentence": "問46 ITサービスマネジメントの管理プロセスに関する記述a~cと用語の適切な組合せはどれか。\na ITサービスの変更を実装するためのプロセス\nb インシデントの根本原因を突き止めて解決策を提供するためのプロセス\nc 組織が所有しているIT資産を把握するためのプロセス",
+        "image_url": "/data/r06_01/q046.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1094,14 +1098,14 @@
             },
             {
                 "answer_sentence": "ウ 問題管理",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "エ 構成管理",
-                "is_correct_answer": false
+                "is_correct_answer": true
             }
         ],
-        "explanation": "ITサービスマネジメントの管理プロセスに関する記述で、問題管理はインシデントの根本原因を突き止めて解決策を提供するためのプロセスです。"
+        "explanation": "ITサービスマネジメントの管理プロセスには、構成管理があります。構成管理は、組織が所有しているIT資産を把握するためのプロセスです。"
     },
     {
         "id": 47,
@@ -1154,26 +1158,27 @@
     {
         "id": 49,
         "question_sentence": "問49 ソフトウェア開発プロジェクトにおけるコストの見積手法には、積み上げ法、ファンクションポイント法、類推見積法などがある。見積りで使用した手法とその特徴に関する記述a~cの適切な組合せはどれか。\na プロジェクトに必要な個々の作業を洗い出し、その作業ごとの工数を見積もって集計する。\nb プロジェクトの初期段階で使用する手法で、過去の事例を活用してコストを見積もる。\nc データ入出力や機能に着目して、ソフトウェア規模を見積もり、係数を乗ずるなどしてコストを見積もる。",
+        "image_url": "/data/r06_01/q049.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
-                "answer_sentence": "ア 積み上げ法",
-                "is_correct_answer": false
-            },
-            {
-                "answer_sentence": "イ 類推見積法",
+                "answer_sentence": "ア",
                 "is_correct_answer": true
             },
             {
-                "answer_sentence": "ウ ファンクションポイント法",
+                "answer_sentence": "イ",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "エ 積み上げ法",
+                "answer_sentence": "ウ",
+                "is_correct_answer": false
+            },
+            {
+                "answer_sentence": "エ",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "ソフトウェア開発プロジェクトにおける類推見積法は、過去の事例を基にコストを見積もる手法です。"
+        "explanation": "積み上げ法は、プロジェクトに必要な個々の作業を洗い出し、その作業ごとの工数を見積もって集計する手法です。"
     },
     {
         "id": 50,
@@ -1230,7 +1235,7 @@
         "answers_attributes": [
             {
                 "answer_sentence": "ア 新機能を追加で開発するためにWBSを変更し、コストの詳細な見積りをするための情報として提供する。",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "イ 新機能を追加で開発するためのWBSのアクティビティの実行に必要なスキルを確認し、必要に応じてプロジェクトチームの能力向上を図る。",
@@ -1242,10 +1247,10 @@
             },
             {
                 "answer_sentence": "エ 変更されたWBSに基づいて要員の充足度を確認し、必要な場合は作業の外注を検討する。",
-                "is_correct_answer": true
+                "is_correct_answer": false
             }
         ],
-        "explanation": "新機能追加のための要員充足度を確認し、必要に応じて外注を検討するのが適切な活動です。"
+        "explanation": "新機能の追加要求が認可された後には、WBSを変更し、新機能を追加で開発するためのコストの詳細な見積りを行う必要があります。"
     },
     {
         "id": 53,
@@ -1346,6 +1351,7 @@
     {
         "id": 57,
         "question_sentence": "問57 暗号化方式の特徴について記した表において、表中のa~dに入れる字句の適切な組合せはどれか。",
+        "image_url": "/data/r06_01/q057.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1354,18 +1360,18 @@
             },
             {
                 "answer_sentence": "イ 共通鍵暗号方式 公開鍵暗号方式 速い 遅い",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ 公開鍵暗号方式 共通鍵暗号方式 遅い 速い",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "エ 公開鍵暗号方式 共通鍵暗号方式 速い 遅い",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "共通鍵暗号方式は速く、公開鍵暗号方式は遅い特性があります。"
+        "explanation": "共通鍵暗号方式は、暗号化と復号の両方に同じ鍵を使用するため、速いです。一方、公開鍵暗号方式は、異なる鍵を使用するため、遅いです。"
     },
     {
         "id": 58,
@@ -1418,6 +1424,7 @@
     {
         "id": 60,
         "question_sentence": "問60 関係データベースを構成する要素の関係を表す図において、図中のa ~c に入れる字句の適切な組合せはどれか。",
+        "image_url": "/data/r06_01/q060.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1465,7 +1472,7 @@
     },
     {
         "id": 62,
-        "question_sentence": "問62 関数convert は、整数型の配列を一定のルールで文字列に変換するプログラムである。関数convert をconvert(arrayInput) として呼び出したときの戻り値が“ABAB”になる引数arrayInput の値はどれか。ここで、arrayInput の要素数は1以上とし、配列の要素番号は1から始まる。",
+        "question_sentence": "問62 関数convert は、整数型の配列を一定のルールで文字列に変換するプログラムである。関数convert をconvert(arrayInput) として呼び出したときの戻り値が“ABAB”になる引数arrayInput の値はどれか。ここで、arrayInput の要素数は1以上とし、配列の要素番号は1から始まる。\n\n[ブログラム]\n○文字列型: convert(整数型の配列:arrayInput)\n 文字列型: stringOutput ← \"\"// 空文字列を格納\n 整数型: i\n for(iを1からarrayInputの要素数まで1ずつ増やす)\n   if(arrayInput[i]が1と等しい)\n     stringOutputの末尾に”A”を追加する\n   else\n     stringOutputの末尾に”B”を追加する\n   endif\n endfor\nreturn stringOutput",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1474,7 +1481,7 @@
             },
             {
                 "answer_sentence": "イ {1, 0, 1, 1, 2}",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ {1, 0, 1, 2, 0}",
@@ -1482,10 +1489,10 @@
             },
             {
                 "answer_sentence": "エ {1, 1, 2, 1, 0}",
-                "is_correct_answer": false
+                "is_correct_answer": true
             }
         ],
-        "explanation": "関数convert では、1を“A”に、それ以外を“B”に変換します。そのため、引数{1, 0, 1, 1, 2}は“ABAB”となります。"
+        "explanation": "関数convertは、整数型の配列を一定のルールで文字列に変換するプログラムです。arrayInputの要素が1の場合は“A”を、それ以外の場合は“B”を文字列に追加します。{1, 1, 2, 1, 0}を引数として渡すと、戻り値は“ABAB”になります。"
     },
     {
         "id": 63,
@@ -1537,12 +1544,13 @@
     },
     {
         "id": 65,
-        "question_sentence": "問65 AIにおける機械学習の学習方法に関する次の記述中のa~cに入れる字句の適切な組合せはどれか。",
+        "question_sentence": "問65 AIにおける機械学習の学習方法に関する次の記述中のa~cに入れる字句の適切な組合せはどれか。\n\n教師あり学習は、正解を付けた学習データを入力することによって、 a と呼ばれる手法で未知のデータを複数のクラスに分けたり、 b と呼ばれる手法でデータの関係性を見つけたりすることができるようになる学習方法である。教師なし学習は、正解を付けない学習データを入力することによって、 c と呼ばれる手法などで次第にデータを正しくグループ分けできるようになる学習方法である。",
+        "image_url": "/data/r06_01/q065.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
                 "answer_sentence": "ア 回帰 - 分類 - クラスタリング",
-                "is_correct_answer": true
+                "is_correct_answer": false
             },
             {
                 "answer_sentence": "イ 分類 - 分類 - 回帰",
@@ -1550,14 +1558,14 @@
             },
             {
                 "answer_sentence": "ウ クラスタリング - 回帰 - 分類",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "エ 分類 - クラスタリング - 回帰",
                 "is_correct_answer": false
             }
         ],
-        "explanation": "機械学習の手法には回帰、分類、クラスタリングがあります。教師あり学習では回帰と分類が行われ、教師なし学習ではクラスタリングが行われます。"
+        "explanation": "教師あり学習は、クラス分類（分類）やデータの関係性の発見（回帰）に使われます。一方、教師なし学習は、データのクラスタリング（クラスタリング）に使われます。"
     },
     {
         "id": 66,
@@ -1586,6 +1594,7 @@
     {
         "id": 67,
         "question_sentence": "問67 図に示す2台のWebサーバと1台のデータベースサーバから成るWebシステムがある。Webサーバの稼働率はともに0.8とし、データベースサーバの稼働率は0.9とすると、このシステムの小数第3位を四捨五入した稼働率は幾らか。ここで、2台のWebサーバのうち少なくとも1台が稼働していて、かつ、データベースサーバが稼働していれば、システムとしては稼働しているとみなす。また、それぞれのサーバはランダムに故障が起こるものとする。",
+        "image_url": "/data/r06_01/q067.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1598,14 +1607,14 @@
             },
             {
                 "answer_sentence": "ウ 0.96",
-                "is_correct_answer": false
+                "is_correct_answer": true
             },
             {
                 "answer_sentence": "エ 0.86",
-                "is_correct_answer": true
+                "is_correct_answer": false
             }
         ],
-        "explanation": "2台のWebサーバのうち少なくとも1台が稼働している確率は1 - (0.2 * 0.2) = 0.96。これにデータベースサーバの稼働率0.9を掛けると、0.96 * 0.9 = 0.864。小数第3位を四捨五入すると、稼働率は0.86となります。"
+        "explanation": "Webサーバの稼働率が0.8で、データベースサーバの稼働率が0.9の場合、システム全体の稼働率は0.96となります。"
     },
     {
         "id": 68,
@@ -1777,7 +1786,8 @@
     },
     {
         "id": 75,
-        "question_sentence": "問75 情報セキュリティの3要素である機密性、完全性及び可用性と、それらを確保するための対策の例a~cの適切な組合せはどれか。",
+        "question_sentence": "問75 情報セキュリティの3要素である機密性、完全性及び可用性と、それらを確保するための対策の例a~cの適切な組合せはどれか。\n\n a アクセス制御\n b デジタル署名\n c ディスクの二重化",
+        "image_url": "/data/r06_01/q075.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1849,23 +1859,23 @@
     },
     {
         "id": 78,
-        "question_sentence": "問78 利用者がスマートスピーカーに向けて話し掛けた内容に対して、スマートスピーカーから音声で応答するための処理手順が(1) ~(4) のとおりであるとき、音声認識に該当する処理はどれか。",
+        "question_sentence": "問78 利用者がスマートスピーカーに向けて話し掛けた内容に対して、スマートスピーカーから音声で応答するための処理手順が(1) ~(4) のとおりであるとき、音声認識に該当する処理はどれか。\n\n (1)利用者の音声をテキストデータに変換する。\n (2)テキストデータを解析して、その意味を理解する。\n (3)応答する内容を決定して、テキストデータを生成する。\n (4)生成した テキストデータを読み上げる。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
-                "answer_sentence": "ア (1)利用者の音声をテキストデータに変換する。",
+                "answer_sentence": "ア (1)",
                 "is_correct_answer": true
             },
             {
-                "answer_sentence": "イ (2)テキストデータを解析して、その意味を理解する。",
+                "answer_sentence": "イ (2)",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "ウ (3)応答する内容を決定して、テキストデータを生成する。",
+                "answer_sentence": "ウ (3)",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "エ (4)生成したテキストデータを読み上げる。",
+                "answer_sentence": "エ (4)",
                 "is_correct_answer": false
             }
         ],
@@ -1897,7 +1907,7 @@
     },
     {
         "id": 80,
-        "question_sentence": "問80 OSS (Open Source Software)に関する記述として、適切なものだけを全て挙げたものはどれか。\na OSS を利用して作成したソフトウェアを販売することができる。\nb ソースコードが公開されたソ フトウェアは全てOSSである。\nc 著作権が放棄されているソフトウェアである。",
+        "question_sentence": "問80 OSS (Open Source Software)に関する記述として、適切なものだけを全て挙げたものはどれか。\na OSS を利用して作成したソフトウェアを販売することができる。\nb ソースコードが公開されたソフトウェアは全てOSSである。\nc 著作権が放棄されているソフトウェアである。",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -1922,22 +1932,27 @@
     {
         "id": 81,
         "question_sentence": "問81 一つの表で管理されていた受注データを、受注に関する情報と商品に関する情報に分割して、正規化を行った上で関係データベースの表で管理する。正規化を行った結果の表の組み合わせとして、最も適切なものはどれか。ここで、同一商品で単価が異なるときは商品番号も異なるものとする。また、発注者名には同姓同名はいないものとする。",
+        "image_url": "/data/r06_01/q081.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
                 "answer_sentence": "ア 受注番号 発注者名 商品番号 商品名 個数 単価",
+                "answer_image_url": "/data/r06_01/a081_a.png",
                 "is_correct_answer": false
             },
             {
                 "answer_sentence": "イ 受注番号 発注者名 商品番号 個数 商品番号 商品名 単価",
+                "answer_image_url": "/data/r06_01/a081_i.png",
                 "is_correct_answer": false
             },
             {
                 "answer_sentence": "ウ 受注番号 発注者名 商品番号 商品名 個数",
+                "answer_image_url": "/data/r06_01/a081_u.png",
                 "is_correct_answer": false
             },
             {
                 "answer_sentence": "エ 受注番号 発注者名 商品番号 個数 商品番号 商品名 単価",
+                "answer_image_url": "/data/r06_01/a081_e.png",
                 "is_correct_answer": true
             }
         ],
@@ -2017,7 +2032,8 @@
     },
     {
         "id": 85,
-        "question_sentence": "問85 関数binaryToIntegerは、1桁以上の符号なし2進数を文字列で表した値を引数binaryStrで受け取り、その値を整数に変換した結果を戻り値とする。例えば、引数として“100”を受け取ると、4を返す。プログラム中のa、bに入れる字句の適切な組み合わせはどれか。",
+        "question_sentence": "問85 関数binaryToIntegerは、1桁以上の符号なし2進数を文字列で表した値を引数binaryStrで受け取り、その値を整数に変換した結果を戻り値とする。例えば、引数として“100”を受け取ると、4を返す。プログラム中のa、bに入れる字句の適切な組み合わせはどれか。\n\n〔プログラム〕\n○整数型:binaryToInteger(文字列型:binaryStr)\n整数型:integerNum, digitNum, exponent, i\nintegerNum ← 0\nfor (iを1からbinaryStrの文字数まで1ずつ増やす)\n  digitNum ← binaryStrの未尾からi番目の文字を整数型に変換した値\n  // 例:文字”1”であれば整数値1に変換\n  exponent ← a\n  integerNum ← b\nendfor\nreturn integerNum",
+        "image_url": "/data/r06_01/q085.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -2210,6 +2226,7 @@
     {
         "id": 93,
         "question_sentence": "問93 関係データベースで管理している\"従業員\"表から、氏名が'%葉_'に該当する従業員を抽出した。抽出された従業員は何名か。ここで、\"_\"は任意の1文字を表し、\"%\"は0文字以上の任意の文字列を表すものとする。",
+        "image_url": "/data/r06_01/q093.png",
         "correct_answer_count": 1,
         "answers_attributes": [
             {
@@ -2237,19 +2254,19 @@
         "correct_answer_count": 1,
         "answers_attributes": [
             {
-                "answer_sentence": "ア a →b →c →d",
+                "answer_sentence": "ア a → b → c → d",
                 "is_correct_answer": true
             },
             {
-                "answer_sentence": "イ b →a →c →d",
+                "answer_sentence": "イ b → a → c → d",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "ウ a →b →d →c",
+                "answer_sentence": "ウ a → b → d → c",
                 "is_correct_answer": false
             },
             {
-                "answer_sentence": "エ b →a →d →c",
+                "answer_sentence": "エ b → a → d → c",
                 "is_correct_answer": false
             }
         ],

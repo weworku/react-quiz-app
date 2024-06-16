@@ -1,9 +1,11 @@
 export type CardData = {
   title: string;
   description: string;
+  imageUrl?: string;
   answers: [
     {
-      answer_sentence: string;
+      answer_sentence?: string;
+      answer_image_url?: string;
       is_correct_answer: boolean;
     }
   ]
@@ -14,10 +16,12 @@ export type CardData = {
 export type QuizData = {
   id: number;
   question_sentence: string;
+  image_url?: string;
   correct_answer_count: number;
   answers_attributes: [
     {
       answer_sentence: string;
+      answer_image_url?: string;
       is_correct_answer: boolean;
     }
   ]

@@ -3,6 +3,7 @@ import { CardData, QuizResult } from '../../type';
 import { Card, Slide, Button, Stack, CardContent, Typography, Container, Box, RadioGroup, FormControlLabel, Radio } from '@mui/material';
 import PanoramaFishEyeIcon from '@mui/icons-material/PanoramaFishEye';
 import ClearIcon from '@mui/icons-material/Clear';
+import React from 'react';
 
 type Props = {
   cards: CardData[],
@@ -110,13 +111,48 @@ export default function AnimatedCard(
                 }} >
                 <CardContent>
                   <Typography component="h3" variant="h5" mb={1}>{card.title}</Typography>
-                  <Typography variant="body1" mb={1.5}>{card.description}</Typography>
+                  <Typography variant="body1" mb={1.5}>
+                    {card.description.split('\n').map((line, index) => (
+                      <React.Fragment key={index}>
+                        {/* 半角スペースが詰められないようにするための対策 */}
+                        {line.split(' ').map((word, wordIndex) => (
+                          <React.Fragment key={wordIndex}>
+                            {wordIndex > 0 && ' '}
+                            {word || '\u00A0'}
+                          </React.Fragment>
+                        ))}
+                        {index < card.description.split('\n').length - 1 && <br />}
+                      </React.Fragment>
+                    ))}</Typography>
+                  {card.imageUrl && (
+                    <Stack direction="row" justifyContent={'center'} alignContent={'center'}>
+                      <Box
+                        component="img"
+                        sx={{
+                          height: '100%',
+                          width: '100%',
+                          maxHeight: { xs: 300, md: 300 },
+                          maxWidth: { xs: '90%', md: '90%' },
+                          objectFit: 'contain',
+                          mb: 2,
+                        }}
+                        alt="question attatched image"
+                        src={card.imageUrl}
+                      /></Stack>)}
                   <RadioGroup
                     aria-labelledby="demo-radio-buttons-group-label"
                     name="radio-buttons-group"
                   >
                     {['ア', 'イ', 'ウ', 'エ'].map((value, i) => (
-                      <FormControlLabel key={i} value={value} control={<Radio />} label={card.answers[i].answer_sentence}
+                      <FormControlLabel key={i} value={value} control={<Radio />}
+                        sx={{ mb: 1 }}
+                        label={
+                          card.answers[i].answer_image_url
+                            ? <>
+                              {value}<img src={card.answers[i].answer_image_url} alt="answer" style={{ width: '100%', height: '100px' }} />
+                            </>
+                            : card.answers[i].answer_sentence
+                        }
                         onChange={(e) => handleCorrectAnswerChenge(e as React.ChangeEvent<HTMLInputElement>, index)}
                         checked={card.userCorrectAnswer === value} disabled={explainMode} />))
                     }

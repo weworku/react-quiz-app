@@ -14,7 +14,7 @@ function App() {
       <ButtonAppBar />
       {/* ボディー部 */}
       <QuizApp />
-      <Typography align={'right'}>※出典：令和6年度分 ITパスポート試験 </Typography>
+      <Typography align={'right'}>※出典：令和6年度分 ITパスポート試験&nbsp;</Typography>
     </ThemeProvider>
   )
 }
